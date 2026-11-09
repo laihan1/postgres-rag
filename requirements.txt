@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+openai
+google-genai
+chromadb
+pypdf
+python-dotenv
+tiktoken
+numpy
