@@ -7,3 +7,6 @@ pypdf
 python-dotenv
 tiktoken
 numpy
+requests
+beautifulsoup4
+langchain-text-splitters
