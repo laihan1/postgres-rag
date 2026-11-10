@@ -35,7 +35,7 @@ def scrape_page(url: str) -> dict:
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # 页面标题
-    title_tag = soup.find("h1")
+    title_tag = soup.find("h1") or soup.find("title")
     title = title_tag.get_text(strip=True).rstrip(" #") if title_tag else url
 
     content = soup.find("div", id="docContent") or soup.body
