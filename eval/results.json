@@ -1,0 +1,302 @@
+[
+  {
+    "query": "What is the default value of max_connections?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 5203,
+    "error": null
+  },
+  {
+    "query": "What port does PostgreSQL listen on by default?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 3694,
+    "error": null
+  },
+  {
+    "query": "What is the default value of shared_buffers?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4560,
+    "error": null
+  },
+  {
+    "query": "What is the default value of work_mem?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4854,
+    "error": null
+  },
+  {
+    "query": "What is the default value of maintenance_work_mem?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4273,
+    "error": null
+  },
+  {
+    "query": "What is the default value of effective_cache_size?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4465,
+    "error": null
+  },
+  {
+    "query": "What does wal_level control?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4469,
+    "error": null
+  },
+  {
+    "query": "What is the default value of fsync?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": null,
+    "latency_ms": 4416,
+    "error": null
+  },
+  {
+    "query": "What is the default value of checkpoint_timeout?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4959,
+    "error": null
+  },
+  {
+    "query": "What is the default value of log_min_duration_statement?",
+    "category": "normal",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4204,
+    "error": null
+  },
+  {
+    "query": "What does listen_addresses control?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4496,
+    "error": null
+  },
+  {
+    "query": "What does superuser_reserved_connections mean?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4676,
+    "error": null
+  },
+  {
+    "query": "What does reserved_connections do?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4837,
+    "error": null
+  },
+  {
+    "query": "What does unix_socket_directories specify?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4686,
+    "error": null
+  },
+  {
+    "query": "What does max_locks_per_transaction limit?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4654,
+    "error": null
+  },
+  {
+    "query": "What does max_parallel_workers_per_gather control?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 3927,
+    "error": null
+  },
+  {
+    "query": "What does temp_buffers control?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4198,
+    "error": null
+  },
+  {
+    "query": "What does wal_buffers control?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4325,
+    "error": null
+  },
+  {
+    "query": "What does log_destination specify?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4695,
+    "error": null
+  },
+  {
+    "query": "What does default_text_search_config set?",
+    "category": "exact_token",
+    "recall_hit": true,
+    "grounded": true,
+    "refused": false,
+    "correct_refusal": null,
+    "latency_ms": 4577,
+    "error": null
+  },
+  {
+    "query": "What is the admin password for PostgreSQL?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 3896,
+    "error": null
+  },
+  {
+    "query": "How do I install PostgreSQL on Ubuntu?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 3738,
+    "error": null
+  },
+  {
+    "query": "What is the latest version of MySQL?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 3754,
+    "error": null
+  },
+  {
+    "query": "How do I create a table in PostgreSQL?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 4159,
+    "error": null
+  },
+  {
+    "query": "What is the default value of innodb_buffer_pool_size?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 4425,
+    "error": null
+  },
+  {
+    "query": "How do I backup a PostgreSQL database?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 4428,
+    "error": null
+  },
+  {
+    "query": "What is PostgreSQL's software license?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 4179,
+    "error": null
+  },
+  {
+    "query": "How do I connect to PostgreSQL from Python?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 3773,
+    "error": null
+  },
+  {
+    "query": "What is the default value of oracle_compatible_mode?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 4223,
+    "error": null
+  },
+  {
+    "query": "What is the weather today in Kuala Lumpur?",
+    "category": "unanswerable",
+    "recall_hit": null,
+    "grounded": false,
+    "refused": true,
+    "correct_refusal": true,
+    "latency_ms": 4425,
+    "error": null
+  }
+]
