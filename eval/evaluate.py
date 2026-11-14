@@ -68,7 +68,7 @@ def summarize(results: list[dict]):
     print("EVALUATION SUMMARY")
     print("=" * 60)
 
-    for cat in ["normal", "exact_token", "unanswerable"]:
+    for cat in ["normal", "exact_token", "unanswerable", "hard_multi_hop"]:
         rows = by_cat.get(cat, [])
         if not rows:
             continue

@@ -30,5 +30,16 @@
   {"query": "What is PostgreSQL's software license?", "category": "unanswerable", "evidence": null},
   {"query": "How do I connect to PostgreSQL from Python?", "category": "unanswerable", "evidence": null},
   {"query": "What is the default value of oracle_compatible_mode?", "category": "unanswerable", "evidence": null},
-  {"query": "What is the weather today in Kuala Lumpur?", "category": "unanswerable", "evidence": null}
+  {"query": "What is the weather today in Kuala Lumpur?", "category": "unanswerable", "evidence": null},
+
+  {"query": "What is the default for max_wal_senders and how does it differ from max_replication_slots?", "category": "hard_multi_hop", "evidence": "max_wal_senders"},
+  {"query": "If I set max_connections to 500, what other parameters should I adjust?", "category": "hard_multi_hop", "evidence": "superuser_reserved_connections"},
+  {"query": "What happens if superuser_reserved_connections is greater than max_connections?", "category": "hard_multi_hop", "evidence": "max_connections"},
+  {"query": "What is the default value of wal_keep_segments?", "category": "hard_multi_hop", "evidence": "wal_keep_size"},
+  {"query": "What is the relationship between shared_buffers and effective_cache_size?", "category": "hard_multi_hop", "evidence": "effective_cache_size"},
+  {"query": "How do I tune PostgreSQL for a machine with 64GB RAM?", "category": "hard_multi_hop", "evidence": "shared_buffers"},
+  {"query": "What is the default value of statement_timeout?", "category": "hard_multi_hop", "evidence": "statement_timeout"},
+  {"query": "What is the difference between log_min_duration_statement and log_min_duration_sample?", "category": "hard_multi_hop", "evidence": "log_min_duration_sample"},
+  {"query": "What is the default value of synchronous_commit?", "category": "hard_multi_hop", "evidence": "synchronous_commit"},
+  {"query": "Which parameters can only be set at server start?", "category": "hard_multi_hop", "evidence": "server start"}
 ]
